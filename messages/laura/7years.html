@@ -1,104 +1,113 @@
 <html>
 
-	  <head>
-		      <link rel="stylesheet" href="https://unpkg.com/axist/dist/axist.min.css" />
-		          <link h?family=Raleway:wght@400;500;700&diype="text/javascript">
-			        let index = 0;
-				      setInterval(() => {
-				              const msg = document.querySelector(`#message${index}g.classList.add("hidden");
+  <head>
+    <link rel="stylesheet" href="https://unpkg.com/axist@latest/dist/axist.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+      let index = 0;
+      setInterval(() => {
+        const msg = document.querySelector(`#message${index}`);
+        msg.classList.add("hidden");
 
-					              // Increment Index
-						              index = (index + 1) % 6;
+        // Increment Index
+        index = (index + 1) % 6;
 
-							              cons = document.querySelector(`#message$      newEl.classList.remove("hidden");
-								            }, 
-									        </script>     body {
-										        background: #e8f4f8 !important;
-											        background-color: #e8f4f8 !important;
-												      }
+        const newEl = document.querySelector(`#message${index}`);
+        newEl.classList.remove("hidden");
+      }, 2550);
 
-												            h3,
-													          h6,
-														        div,
-															      body {
-															              font-family: 'Raleway', sans-serif;
-																            }
+    </script>
+    <style>
+      body {
+        background: #e8f4f8 !important;
+        background-color: #e8f4f8 !important;
+      }
 
-																	          .container {
-																		          position: relative;
-																			          height: 50px;
-																				        }
+      h3,
+      h6,
+      div,
+      body {
+        font-family: 'Raleway', sans-serif;
+      }
 
-																					      .intro {
-																					              position: absolute;
-																						              /* top: 0; */
-																							              opacity: 1;
-																								              transition: opacity 1.5s ease-in-out;
-																									              font-size: 1.1em;
-																										              font-weight: bold;
-																											            }
+      .container {
+        position: relative;
+        height: 50px;
+      }
+
+      .intro {
+        position: absolute;
+        /* top: 0; */
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
 
 
-																												          .message {
-																													          position: absolute;
-																														          left: 160px;
-																															          opacity: 1;
-																																          transition: opacity 1.5s ease-in-out;
-																																	          font-size: 1.1em;
-																																		          font-weight: bold;
-																																			        }
+      .message {
+        position: absolute;
+        left: 160px;
+        opacity: 1;
+        transition: opacity 1.5s ease-in-out;
+        font-size: 1.1em;
+        font-weight: bold;
+      }
 
-																																				      .hidden {
-																																				              opacity: 0;
-																																					            }
+      .hidden {
+        opacity: 0;
+      }
 
-																																						          #message0 {
-																																							          color: #02C39A;
-																																								        }
+      #message0 {
+        color: #02C39A;
+      }
 
-																																									      #message1 {
-																																									              color: #028090;
-																																										            }
+      #message1 {
+        color: #028090;
+      }
 
-																																											          #message2 {
-																																												          color: #02C39A;
-																																													        }
+      #message2 {
+        color: #02C39A;
+      }
 
-																																														      #message3 {
-																																														              color: #028090;
-																																															            }
+      #message3 {
+        color: #028090;
+      }
 
-																																																          #message4 {
-																																																	          color: #02C39A;
-																																																		        }
+      #message4 {
+        color: #02C39A;
+      }
 
-																																																			      #message5 {
-																																																			              color: #028090;
-																																																				            }
+      #message5 {
+        color: #028090;
+      }
 
-																																																					          .heart {
-																																																						          color: #FB6376}
+      .heart {
+        color: #FB6376;
+      }
 
-																																																							      </style  <body>
-																																																								          <h6>
-																																																										        To my Boo Laura,
-																																																											    </h6>
-																																																											        <h3>
-																																																													      Happy Monthiversary #84
-																																																													          </h3>
-																																																														      <div class="container">
-																																																															          intro">I just want to say</span>
-																																																															   pan id="message0" clasou’re great.</span>
-																																																														         <span id="message1="message hiddewife.</span>
-																																																															       <span id="message2" class="message hidden">it’s been years.</span>
-																																																															       e3" class="message hidden">it’ll be 70 more!</span>
-																																																														            sage4" class="message hidden">I love you.</span>
-																																																														          <span id="message5" class="message hidden">you are my friend.</span>
-																																																															      </div>
-																																																															          <h6>
-																																																																	        Love Steve <span class="heart">❤</span>
-																																																																		    </h6>
-																																																																		      </body>
+    </style>
+  </head>
+
+  <body>
+    <h6>
+      To my Boo Laura,
+    </h6>
+    <h3>
+      Happy Monthiversary #84
+    </h3>
+    <div class="container">
+      <span class="intro">I just want to say</span>
+      <span id="message0" class="message">you’re great.</span>
+      <span id="message1" class="message hidden">you’re a wonderful wife.</span>
+      <span id="message2" class="message hidden">it’s been 7 happy years.</span>
+      <span id="message3" class="message hidden">it’ll be 70 more!</span>
+      <span id="message4" class="message hidden">I love you.</span>
+      <span id="message5" class="message hidden">you are my friend.</span>
+    </div>
+    <h6>
+      Love Steve <span class="heart">❤</span>
+    </h6>
+  </body>
 
 </html>
-
